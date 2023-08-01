@@ -1,0 +1,18 @@
+EXPECTED_BAKE_TIME = 40
+PREPARATION_TIME = 2
+
+
+
+
+def bake_time_remaining(elasped_bake_time):
+    """Calculate the bake time remaining.
+    
+    remaining_bake_time = EXPECTED_BAKE_TIME - elasped_bake_time 
+    return remaining_bake_time
+
+print(bake_time_remaining.__doc__)
+
+def preparation_time_in_minutes(number_of_layers): 
+    prep_time = PREPARATION_TIME * number_of_layers
+    return prep_time
+
